@@ -4,3 +4,7 @@ li{
 a{
     text-decoration: none;
 }
+body{
+    margin: 0; /*ну шо ж круто*/
+    padding: 0;
+}
