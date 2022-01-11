@@ -10,3 +10,15 @@ header{
     width: 180px;
     height: 100px;
 }
+ul{
+    display: inline-flex;
+
+}
+li{
+    position: relative;
+    left: 1145px;
+    top: -75px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family:Roboto;
+}
