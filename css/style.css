@@ -28,8 +28,8 @@ header {
 }
 
 main {
-    max-width: 1680px;
-    max-height: 1080px;
+    width: 1680px;
+    height: 1080px;
     margin: 0 auto;
     background-image: url("https://i.imgur.com/cUeG1tS.png");
     background-repeat: no-repeat;
@@ -100,3 +100,17 @@ div {
     position: relative;
     right: 3em;
 }
+
+a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #404040; 
+    transition: all 0.5s;
+  }
+  
+  a:hover:before {
+    width: 70%;
+  }
